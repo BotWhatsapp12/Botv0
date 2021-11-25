@@ -163,7 +163,7 @@ module.exports = jembot = async (jembot, mek, _welkom) => {
 				group: 'Khusus Group Tod !'
 			}
 		}
-		faketeks = '©JEMBOT BOTZ'
+		faketeks = '©ARUL BOTZ'
 		let isUrl = (url) => {
         return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
         }
@@ -320,8 +320,8 @@ const fakestatus = (teks) => {
                             itemCount : 123,
                             status: 1,
                             surface : 1,
-                            message: `I T S U K I`, 
-                            orderTitle: `I T S U K I`,
+                            message: `ArulGanz`, 
+                            orderTitle: `ArulBotz`,
                             thumbnail: zero, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -2038,47 +2038,47 @@ break
 case 'loli':
 gambar = await getBuffer('https://velgrynd.herokuapp.com/api/image/loli')
 reply(mess.wait)
-jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Nih Jangan Lupa Subrek YT : I T S U K I'})
+jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Gak Usah Makasih, Gak PP'})
 break
 case 'neko':
 gambar = await getBuffer('https://velgrynd.herokuapp.com/api/image/neko')
 reply(mess.wait)
-jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Nih Jangan Lupa Subrek YT : I T S U K I'})
+jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Gak Usah Makasih, Gak PP'})
 break
 case 'waifu':
 gambar = await getBuffer('https://velgrynd.herokuapp.com/api/image/waifu')
 reply(mess.wait)
-jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Nih Jangan Lupa Subrek YT : I T S U K I'})
+jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Gak Usah Makasih, Gak PP'})
 break
 case 'awoo':
 gambar = await getBuffer('https://velgrynd.herokuapp.com/api/image/awoo')
 reply(mess.wait)
-jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Nih Jangan Lupa Subrek YT : I T S U K I'})
+jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Gak Usah Makasih, Gak PP'})
 break
 case 'husbu':
 gambar = await getBuffer('https://velgrynd.herokuapp.com/api/image/husbu')
 reply(mess.wait)
-jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Nih Jangan Lupa Subrek YT : I T S U K I'})
+jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Gak Usah Makasih, Gak PP'})
 break
 case 'cosplay':
 gambar = await getBuffer('https://velgrynd.herokuapp.com/api/image/cosplay')
 reply(mess.wait)
-jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Nih Jangan Lupa Subrek YT : I T S U K I'})
+jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Gak Usah Makasih, Gak PP'})
 break
 case 'shinobu':
 gambar = await getBuffer('https://velgrynd.herokuapp.com/api/image/shinobi')
 reply(mess.wait)
-jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Nih Jangan Lupa Subrek YT : I T S U K I'})
+jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Gak Usah Makasih, Gak PP'})
 break
 case 'megumin':
 gambar = await getBuffer('https://velgrynd.herokuapp.com/api/image/megumin')
 reply(mess.wait)
-jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Nih Jangan Lupa Subrek YT : I T S U K I'})
+jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Gak Usah Makasih, Gak PP'})
 break
 case 'milf':
 gambar = await getBuffer('https://velgrynd.herokuapp.com/api/image/milf')
 reply(mess.wait)
-jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Nih Jangan Lupa Subrek YT : I T S U K I'})
+jembot.sendMessage(from, gambar, image, {quoted: mek, caption: 'Gak Usah Makasih, Gak PP'})
 break
 
 //━━━━━━━━━━━━━━━[ FITUR MAKER ]━━━━━━━━━━━━━━━━━//
