@@ -32,7 +32,7 @@ JADI YA WKWK, DH KG JELAS GW:V
 ©ZeroYT7
 
 
-CREATOR ZERO YT7
+CREATOR ArukGanz
 RECODE SESUKA HATIMU JANGAN HPUS CREATOR NYA
 MAAF SC NYA JELEK
 REUPLOAD ? TAG CHANNELL GUE AJG JNGN MODAL NUMPANG DOANK
@@ -153,7 +153,7 @@ module.exports = jembot = async (jembot, mek, _welkom) => {
 
 		mess = {
 			wait: 'Sabar Lagi Proses Tod...!',
-			success: 'Done Jangan Lupa Subscribe Zero YT7',
+			success: 'Done Jangan Lupa Follow Instagram _daaa_1',
 			error: {
 				stick: 'Gagal Convert Gambar To Sticker...Coba Lagi !',
 				Iv: 'Linknya Error Tod !'
@@ -920,7 +920,7 @@ reply(mess.error.stick)
 .on('end', function () {
 console.log('Finish')
 buffer = fs.readFileSync(ran)
-costum(buffer, sticker, Verived, `Jangan Lupa Subscribe Zero YT7`)
+costum(buffer, sticker, Verived, `Jangan Lupa Follow Instagram _daaa_1`)
 fs.unlinkSync(media)
 fs.unlinkSync(ran)
 })
@@ -985,7 +985,7 @@ exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 fs.unlinkSync(media)
 if (err) return reply(' Gagal, pada saat mengkonversi sticker ke gambar ')
 buffer = fs.readFileSync(ran)
-costum(buffer, image, Verived, `Jangan Lupa Subscribe Zero YT7`)
+costum(buffer, image, Verived, `Jangan Lupa Follow Instagram _daaa_1`)
 fs.unlinkSync(ran)
 })
 break
@@ -1013,7 +1013,7 @@ ran = getRandom('.webp')
 exec(`ffmpeg -i ${anum} ${ran}`, (err) => {
 fs.unlinkSync(anum)
 buffer = fs.readFileSync(ran)
-jembot.sendMessage(from, buffer, video, { quoted: ftrol, caption: 'Done... Jangan Lupa Subscribe Zero YT7' })
+jembot.sendMessage(from, buffer, video, { quoted: ftrol, caption: 'Done... Jangan Lupa Follow Instagram _daaa_1' })
 fs.unlinkSync(ran)
 })
 break
@@ -1486,7 +1486,7 @@ setTimeout( () => {
 jembot.sendMessage(from, '_60 Detik lagi..._', text) 
 }, 2500) // 1000 = 1s,
 setTimeout( () => {
-jembot.sendMessage(from, ngebuff, image, { caption: '_Tebak bro!!! gak bisa jawab wajib subrek zero yt7 :v_', quoted: ftrol }) 
+jembot.sendMessage(from, ngebuff, image, { caption: '_Tebak bro!!! gak bisa jawab wajib follow _daaa_1:v_', quoted: ftrol }) 
 }, 0) // 1000 = 1s,
 break
 case 'suit':
@@ -1947,7 +1947,7 @@ break
 //━━━━━━━━━━━━━━━[ FITUR PRIMBON ]━━━━━━━━━━━━━━━━━//
 
 case 'artinama':
-if (args.length == 0) return reply(`Namamya Mana Tod\nContoh: ${prefix + command} Zero YT7`)
+if (args.length == 0) return reply(`Namamya Mana Tod\nContoh: ${prefix + command} ArulGanz`)
 ini_nama = args.join(" ")
 get_result = await fetchJson(`https://api.lolhuman.xyz/api/artinama?apikey=${zerokey}&nama=${ini_nama}`)
 reply(get_result.result)
@@ -1976,7 +1976,7 @@ ini_txt += `Deskripsi : ${get_result.deskripsi}`
 reply(ini_txt)
 break
 case 'tebakumur':
-if (args.length == 0) return reply(`Namanya Mana Tod\nContoh: ${prefix + command} Zero YT7`)
+if (args.length == 0) return reply(`Namanya Mana Tod\nContoh: ${prefix + command} ArulGanz`)
 ini_name = args.join(" ")
 if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
 get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebakumur?apikey=${zerokey}&name=${ini_name}`)
