@@ -645,7 +645,7 @@ _• ${prefix}dosa14_
 _• ${prefix}dosa15_
 `
 teks =
-`y`
+`@ArulGanz`
 but = [
 
           { buttonId: `${prefix}owner`, buttonText: { displayText: 'Owner' }, type: 1 }
